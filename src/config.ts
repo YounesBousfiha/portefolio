@@ -1,38 +1,46 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Younes Bousfiha",
+  title: "Software Developer & DevOps Enthusiast",
+  description: "Portfolio website of Younes Bousfiha",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "younescoder@gmail.com",
+    linkedin: "https://www.linkedin.com/in/younes-bousfiha-9838361a6/",
+    twitter: "https://x.com/bousfiha_younes",
+    github: "https://github.com/YounesBousfiha",
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  aboutMe: `I'm Younes, a passionate Software Developer, DevOps enthusiast, and Ethical Hacker focused on building high-quality, secure, and scalable web applications. Currently studying at YouCode (UM6P), I work across the full stack using Java (Spring Boot), Angular, Laravel, Next.js, and Node.js — blending backend logic with clean, functional interfaces.
+
+Beyond development, I enjoy debugging, system analysis, and finding vulnerabilities through platforms like HackerOne, where I've earned strong credibility. My goal is simple: to craft reliable, production-ready software and continuously push my technical limits.`,
+  skills: ["C", "html", "css", "Javascript", "React", "Node.js", "nextjs", "Python", "Flask", "Django", "PHP", "Laravel", "Java", "Spring", "Microservice", "RabbitMQ", "Docker", "Kubernetes", "CI/CD", "DevOps"],
   projects: [
-    {
-      name: "AI Dev Roundup Newsletter",
+        {
+      name: "LeetCode-Clone",
       description:
         "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
       link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["AngularJs", "Spring", "Microservice", "CI/CD", "Docker", "Kubernetes", "RabbitMQ"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "SynergryNow",
+      description:
+        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+      link: "https://aidevroundup.com/?ref=devportfolio",
+      skills: ["React", "Node.js", "Laravel", "Postgres"],
+    },
+    {
+      name: "DevMarket",
       description:
         "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
       link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["React", "Node.js", "ExpressJs", "MongoDB"],
     },
     {
-      name: "ExtensionKit",
+      name: "BookRave",
       description:
         "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
       link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["React", "Node.js", "Django", "MySQL"],
     },
   ],
   experience: [
@@ -87,6 +95,32 @@ export const siteConfig = {
         "Built 10+ portfolio projects",
         "Specialized in React and Node.js",
       ],
+    },
+  ],
+  certifications: [
+    {
+      name: "AWS Certified Solutions Architect",
+      issuer: "Amazon Web Services",
+      dateIssued: "2023",
+      credentialUrl: "https://aws.amazon.com/certification/",
+      description: "Demonstrated expertise in designing distributed systems and applications on AWS platform",
+      skills: ["AWS", "Cloud Architecture", "EC2", "S3", "Lambda"],
+    },
+    {
+      name: "Certified Kubernetes Administrator (CKA)",
+      issuer: "Cloud Native Computing Foundation",
+      dateIssued: "2023",
+      credentialUrl: "https://www.cncf.io/certification/cka/",
+      description: "Validated skills in Kubernetes cluster administration and container orchestration",
+      skills: ["Kubernetes", "Docker", "Container Orchestration", "DevOps"],
+    },
+    {
+      name: "Docker Certified Associate",
+      issuer: "Docker",
+      dateIssued: "2022",
+      credentialUrl: "https://www.docker.com/certification/",
+      description: "Certified in Docker containerization technology and best practices",
+      skills: ["Docker", "Containers", "Microservices", "CI/CD"],
     },
   ],
 };
